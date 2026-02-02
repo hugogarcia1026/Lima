@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <h1>Classificação</h1>
+
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Classificação</th>
+                <th>Time</th>
+                <th>Pontos</th>
+                <th>Jogos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+
+        </tbody>
+        <tr>
+            <td>1</td>
+            <td><img src="Botafogo.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+        
+        <tr>
+            <td>2</td>
+            <td><img src="Chapecoense.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+
+        <tr>
+            <td>3</td>
+            <td><img src="vitoria.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+
+        <tr>
+            <td>4</td>
+            <td><img src="Fluminense.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+        
+        <tr>
+            <td>5</td>
+            <td><img src="Mirassol.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+
+        <tr>
+            <td>6</td>
+            <td><img src="Bahia.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+
+        <tr>
+            <td>7</td>
+            <td><img src="São Paulo.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+
+        <tr>
+            <td>8</td>
+            <td><img src="Athletico_Paranaense.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+
+        <tr>
+            <td>9</td>
+            <td><img src="RedBullBragantino.jpg" width="100"></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>    
+
+        <tr>
+            <td>10</td>
+            <td><img src="Palmeiras.jpg" width="100"></td>
+            <td>1</td>
+            <td>1</td>
+        </tr>    
+</table>
+
+
+<h1>Responda</h1>
+
+    <form method="POST" action="processar.php">
+        <fieldset>
+
+            <legend>Dados do seu time</legend>
+
+            <label for="nome">Qual seu time:</label>
+            <input type="email" id="nome" name="nome" required>
+
+            <br><br>
+
+            <label for="email">Seu time tem mundial:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="idade">Quantos times brasileiro seu time possui:</label>
+            <input type="number" id="idade" name="idade" min="18" max="120">
+
+            <br><br>
+
+            <label for="senha">Deixe seu comentário:</label>
+            <input type="text" id="text" name="text" required>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Termos</legend>
+            <label for="termos">
+                <input type="checkbox" id="termos" name="termos" required>
+                Aceito os temos de serviço
+            </label>
+        </fieldset>
+
+        <br><br>
+
+        <button>Enviar</button>
+
+</body>
+</html>
